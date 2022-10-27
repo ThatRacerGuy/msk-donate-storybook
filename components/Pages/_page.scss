@@ -1,0 +1,19 @@
+.layout-container {
+  background-color: var(--msk-bg-light);
+  position: relative;
+
+  &.layout-container--menu-visible {
+    right: 75%;
+
+    @include for-desktop-up {
+      right: auto;
+    }
+  }
+
+  .container {
+    @include column-padding;
+    @include desktop-width;
+    padding-top: var(--msk-header-height); /* Header match */
+    width: 100%;
+  }
+}

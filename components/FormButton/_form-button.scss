@@ -1,0 +1,28 @@
+.form-button {
+  background-color: var(--msk-color-primary);
+  border: 1px solid var(--msk-color-primary);
+  border-radius: 0;
+  color: var(--msk-text-white);
+  cursor: pointer;
+  display: block;
+  font-family: var(--msk-font-input-text);
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0.5rem 0.75rem;
+  outline: none;
+  text-transform: uppercase;
+}
+
+.form-button--bg-dark {
+  background-color: transparent;
+  border-color: var(--msk-text-white);
+}
+
+.form-button--small {
+  font-size: 0.75rem;
+}
+
+.form-button--large {
+  font-size: 1.25em;
+}

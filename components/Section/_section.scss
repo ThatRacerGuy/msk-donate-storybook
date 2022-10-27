@@ -1,0 +1,16 @@
+.section {
+  margin: 2rem 0;
+
+  @include for-desktop-up {
+    margin: 4rem 0;
+  }
+
+  .section-title {
+    color: var(--msk-text-black);
+    font-family: var(--msk-font-headings);
+    font-size: var(--msk-font-size-h2);
+    line-height: 1.25;
+    margin: 0 0 1.5rem;
+    text-align: center;
+  }
+}

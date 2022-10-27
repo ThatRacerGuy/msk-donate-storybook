@@ -1,0 +1,69 @@
+<!-- Colors.stories.mdx -->
+
+import { Meta } from '@storybook/addon-docs';
+
+<Meta title="Colors" />
+
+<style>{`
+  .subheading {
+    font-weight: 800;
+    font-size: 14px;
+    color: #999;
+    letter-spacing: 6px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    margin: 40px 0 2rem;
+  }
+
+  .colorblocks {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .colorblock {
+    width: 25%;
+  }
+
+  .colorblock-name {
+    font-weight: 800;
+    margin: 0 0 0.5rem;
+  }
+
+  .colorblock-color {
+    border: 4px solid #fff;
+    border-radius: 10px;
+    height: 160px;
+    outline: 1px solid #000;
+    width: 160px;
+  }
+`}</style>
+
+# Colors
+
+<div className="subheading">Brand</div>
+
+<div className="colorblocks">
+<div className="colorblock">
+  <p className="colorblock-name">Primary Color</p>
+
+  <div className="colorblock-color" style={{ backgroundColor: 'var(--msk-color-primary)' }}></div>
+</div>
+
+<div className="colorblock">
+  <p className="colorblock-name">Primary Color (Contrast)</p>
+
+  <div className="colorblock-color" style={{ backgroundColor: 'var(--msk-color-primary-alt)' }}></div>
+</div>
+
+<div className="colorblock">
+  <p className="colorblock-name">Secondary Color</p>
+
+  <div className="colorblock-color" style={{ backgroundColor: 'var(--msk-color-secondary)' }}></div>
+</div>
+
+<div className="colorblock">
+  <p className="colorblock-name">Secondary Color (Contrast)</p>
+
+  <div className="colorblock-color" style={{ backgroundColor: 'var(--msk-color-secondary-alt)' }}></div>
+</div>
+</div>

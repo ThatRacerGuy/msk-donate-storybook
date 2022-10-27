@@ -1,0 +1,41 @@
+.card-row {
+  display: flex;
+  flex-direction: column;
+
+  @include for-desktop-up {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .card-full {
+    width: 100%;
+  }
+
+  .card {
+    .card-content {
+      height: 100%;
+    }
+
+    .card-link {
+      margin-top: auto;
+    }
+  }
+
+  &.card-row--2-col .card {
+    @include for-desktop-up {
+      width: calc(100% / 2);
+    }
+  }
+
+  &.card-row--3-col .card {
+    @include for-desktop-up {
+      width: calc(100% / 3);
+    }
+  }
+
+  &.card-row--4-col .card {
+    @include for-desktop-up {
+      width: calc(100% / 4);
+    }
+  }
+}

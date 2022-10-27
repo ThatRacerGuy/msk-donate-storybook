@@ -1,0 +1,9 @@
+.single-line-form {
+  display: flex;
+  margin-right: -1px;
+
+  .form-button {
+    position: relative;
+    left: -1px;
+  }
+}

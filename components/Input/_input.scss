@@ -1,0 +1,25 @@
+.single-input {
+  @include text-input;
+}
+
+.single-input--rounded {
+  border-radius: 0.25rem;
+}
+
+.single-input--bg-dark {
+  background: transparent;
+  border-color: var(--msk-text-white);
+  color: var(--msk-text-white);
+
+  &::placeholder {
+    color: #eee;
+  }
+}
+
+.single-input--large {
+  font-size: 1.25rem;
+}
+
+.single-input--small {
+  font-size: 0.75rem;
+}

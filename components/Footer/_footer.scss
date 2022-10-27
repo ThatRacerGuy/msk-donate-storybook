@@ -1,0 +1,34 @@
+.footer {
+  background: var(--msk-footer-bg);
+  margin: 0;
+
+  .footer-wrapper {
+    @include column-padding;
+    display: flex;
+    flex-direction: column;
+    min-height: 80px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    width: 100%;
+
+    @include for-desktop-up {
+      @include desktop-width;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  .footer-area-1 {
+    @include for-desktop-up {
+      max-width: 230px;
+      width: 25%;
+    }
+  }
+
+  .footer-area-3 {
+    @include for-desktop-up {
+      max-width: 550px;
+      width: 50%;
+    }
+  }
+}

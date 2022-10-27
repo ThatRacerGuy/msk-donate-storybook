@@ -1,0 +1,25 @@
+.multi-input {
+  @include text-input;
+}
+
+.multi-input--rounded {
+  border-radius: 0.25rem;
+}
+
+.multi-input--bg-dark {
+  background: transparent;
+  border-color: var(--msk-text-white);
+  color: var(--msk-text-white);
+
+  &::placeholder {
+    color: #eee;
+  }
+}
+
+.multi-input--large {
+  font-size: 1.25rem;
+}
+
+.multi-input--small {
+  font-size: 0.75rem;
+}

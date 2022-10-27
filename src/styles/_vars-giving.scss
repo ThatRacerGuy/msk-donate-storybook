@@ -1,0 +1,61 @@
+:root {
+  /* Added/modified in Storybook */
+  /* Colors */
+  --msk-color-primary: #f26529;
+  --msk-color-primary-alt: #f68e55;
+  --msk-color-secondary: #2986e2;
+  --msk-color-secondary-alt: #4da4fa;
+  /* Backgrounds */
+  --msk-bg-light: #f1f1f1;
+  --msk-bg-light-alt: #fff;
+  --msk-bg-dark: #171717;
+  /* Text/fonts */
+  --msk-font-default: 'Chronicle Display A', 'Chronicle Display B', serif;
+  --msk-font-headings: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+  --msk-font-input-text: var(--msk-font-headings);
+  --msk-font-ctas: var(--msk-font-headings);
+  --msk-font-size-h1: 3rem;
+  --msk-font-size-h2: 2.625rem;
+  --msk-font-size-h3: 2.25rem;
+  --msk-font-size-h4: 2rem;
+  --msk-font-size-h5: 1.5rem;
+  --msk-font-size-h6: 1.25rem;
+  --msk-font-size-default: 16px;
+  --msk-text-white: #fff;
+  --msk-text-black: #171717;
+  /* Links */
+  --msk-link: #2986e2;
+  --msk-link-hover: #2986e2;
+  --msk-link-alternative: #f68e55;
+  /* Header */
+  --msk-header-bg: #fff;
+  --msk-header-height: 84px;
+  --msk-header-font-size: 0.75rem;
+  --msk-header-color: var(--msk-text-black);
+  --msk-header-border-width: 2px;
+  /* Footer */
+  --msk-footer-bg: var(--msk-color-secondary);
+  --msk-footer-font-size: 0.75rem;
+  /* Form */
+  --msk-bg-forms: #f1f1f1;
+  --msk-bg-form-text: #171717;
+  --msk-form-placeholder: #171717;
+  --msk-webform-input-bg: #fff;
+  --msk-webform-input-text: #000;
+  --msk-webform-input-text-alt: #171717;
+  --msk-webform-input-hightlight: #000;
+  --msk-webform-input-border-color: #171717;
+  /* Remaining */
+  --msk-text1: #4b4b4b;
+  --msk-svg-icons: #fff;
+  --msk-bg-multicolum: #f26529;
+  --msk-line-multicolum: #fff;
+  --msk-multicolum-text: #fff;
+  --msk-overflow-transparent-effect: rgba(255,108,0,0.5);
+  --msk-text-shadow: 3px 3px 10px #171717;
+  --msk-quotes-background: #f1f1f1;
+  --msk-quotes-border: #e6e6e6;
+  /* Alerts */
+  --msk-alert-font: var(--msk-font-headings);
+  --msk-alert-font-size: 1rem;
+}

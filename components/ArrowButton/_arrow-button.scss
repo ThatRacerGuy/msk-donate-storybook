@@ -1,0 +1,46 @@
+.arrow-button {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  border-radius: 0;
+  color: var(--msk-color-primary);
+  cursor: pointer;
+  display: inline-block;
+  font-family: var(--msk-font-headings);
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  padding: 0 2rem 0 0;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &:hover {
+    border-bottom-color: var(--msk-color-primary);
+  }
+
+  svg {
+    width: 0.875rem;
+    display: inline-block;
+    position: absolute;
+    top: 0.25rem;
+    right: 0;
+  }
+
+  path {
+    fill: var(--msk-color-primary);
+  }
+}
+
+.arrow-button--secondary {
+  color: var(--msk-color-secondary);
+
+  &:hover {
+    border-bottom-color: var(--msk-color-secondary);
+  }
+
+  path {
+    fill: var(--msk-color-secondary);
+  }
+}

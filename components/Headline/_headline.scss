@@ -1,0 +1,15 @@
+.headline {
+  color: var(--msk-text-black);
+  font-family: var(--msk-font-headings);
+  font-size: var(--msk-font-size-h5);
+  line-height: 1.25;
+  margin: 0 0 1.5rem;
+}
+
+.headline--light {
+  color: var(--msk-text-white);
+}
+
+.headline--upper {
+  text-transform: uppercase;
+}

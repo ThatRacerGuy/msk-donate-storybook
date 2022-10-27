@@ -1,0 +1,20 @@
+.headline {
+  color: var(--msk-text-black);
+  font-weight: 700;
+
+  &:after {
+    content: '';
+    display: block;
+    margin: 1em 0 0;
+    width: 50px;
+    border-bottom: 2px solid var(--msk-text-black);
+  }
+}
+
+.headline--light {
+  color: var(--msk-text-white);
+
+  &:after {
+    border-bottom-color: var(--msk-text-white);
+  }
+}

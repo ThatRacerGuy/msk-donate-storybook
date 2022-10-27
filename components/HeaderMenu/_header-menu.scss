@@ -1,0 +1,21 @@
+.header-menu {
+  background-color: var(--msk-bg-light);
+  box-shadow: inset 10px 0 13px -10px rgb(0 0 0 / 20%);
+  display: block;
+  position: relative;
+
+  @include for-desktop-up {
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  ul {
+    @include reset-list;
+    display: flex;
+    flex-direction: column;
+
+    @include for-desktop-up {
+      flex-direction: row;
+    }
+  }
+}

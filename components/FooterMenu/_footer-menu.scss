@@ -1,0 +1,14 @@
+.footer-menu {
+  @include reset-list;
+
+  li a {
+    color: var(--msk-text-white);
+    display: block;
+    font-family: var(--msk-font-headings);
+    font-size: var(--msk-footer-font-size);
+    line-height: 1.5;
+    letter-spacing: 1px;
+    padding: 0 1.5rem 1rem 0;
+    text-decoration: none;
+  }
+}

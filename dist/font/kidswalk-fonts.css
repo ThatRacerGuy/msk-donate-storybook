@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'MSKBrownWeb Black Web';
+  src: url('MSKBrownWeb-Black.woff') format('woff'),
+    url('MSKBrownWeb-Black.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'HCo Chronicle SSm';
+  src: url('ChronicleSSm-Light_Web.woff2') format('woff2'),
+    url('ChronicleSSm-Light_Web.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HCo Chronicle SSm';
+  src: url('ChronicleSSm-LightItalic_Web.woff2') format('woff2'),
+    url('ChronicleSSm-LightItalic_Web.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'HCo Chronicle SSm';
+  src: url('ChronicleSSm-Book_Web.woff2') format('woff2'),
+    url('ChronicleSSm-Book_Web.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HCo Chronicle SSm';
+  src: url('ChronicleSSm-BookItalic_Web.woff2') format('woff2'),
+    url('ChronicleSSm-BookItalic_Web.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'HCo Chronicle SSm';
+  src: url('ChronicleSSm-Medium_Web.woff2') format('woff2'),
+    url('ChronicleSSm-Medium_Web.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HCo Chronicle SSm';
+  src: url('ChronicleSSm-MediumItalic_Web.woff2') format('woff2'),
+    url('ChronicleSSm-MediumItalic_Web.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'HCo Chronicle SSm';
+  src: url('ChronicleSSm-Bold_Web.woff2') format('woff2'),
+    url('ChronicleSSm-Bold_Web.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HCo Chronicle SSm';
+  src: url('ChronicleSSm-BoldItalic_Web.woff2') format('woff2'),
+    url('ChronicleSSm-BoldItalic_Web.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+}

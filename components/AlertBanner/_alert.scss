@@ -1,0 +1,63 @@
+.alert-banner {
+  position: relative;
+  overflow: hidden;
+
+  .alert-banner-content {
+    @include desktop-width;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+  }
+
+  .alert-banner-summary {
+    color: var(--msk-text-white);
+    font-family: var(--msk-alert-font);
+    font-size: var(--msk-alert-font-size);
+    line-height: 1.5;
+    padding-right: 1rem;
+
+    @include for-desktop-up {
+      margin-right: auto;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .alert-banner-close {
+    align-self: flex-start;
+    background: transparent;
+    border: 0;
+    height: 20px;
+    padding: 0;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 20px;
+
+    @include for-desktop-up {
+      margin-left: 1rem;
+      position: static;
+    }
+
+    svg {
+      height: 20px;
+      pointer-events: none;
+      vertical-align: top;
+      width: 20px;
+    }
+  }
+
+  &--primary {
+    background-color: var(--msk-color-primary);
+  }
+
+  &--secondary {
+    background-color: var(--msk-color-secondary);
+  }
+}

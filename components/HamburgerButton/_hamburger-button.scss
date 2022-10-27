@@ -1,0 +1,30 @@
+.header-menu-toggle {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 15px 0 0;
+  padding: 0;
+  position: relative;
+
+  img {
+    height: 28px;
+    vertical-align: top;
+  }
+}
+
+.header-menu-toggle--hidden {
+
+  .icon--visible {
+    display: none;
+  }
+
+}
+
+.header-menu-toggle--visible {
+
+  .icon--hidden {
+    display: none;
+  }
+
+}
